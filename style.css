@@ -1,0 +1,41 @@
+body {
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 60px;
+    transition: 0.3s;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: burlywood;
+}
+
+.quote-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.quote {
+    font-size: 94px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+}
